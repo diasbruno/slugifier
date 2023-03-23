@@ -7,7 +7,7 @@ PROJECT=slugifier
 SOURCES=$(wildcard *.c)
 OBJECTS=$(SOURCES:%.c=%.o)
 
-CFLAGS=-Wall -Werror -I.
+CFLAGS=-Wall -Werror -I. -I/usr/include
 LDFLAGS=-lunac -lpcre2-8
 
 ifneq ("$(DEBUG)", "0")
