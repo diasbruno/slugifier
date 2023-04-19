@@ -27,3 +27,6 @@ all: $(PROJECT)
 
 clean:
 	rm -rf $(OBJECTS) $(PROJECT)
+
+install:
+	cp $(PROJECT) $(DEST)/$(PROJECT)
