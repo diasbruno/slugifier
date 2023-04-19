@@ -1,4 +1,4 @@
-CC=clang
+CC?=clang
 
 DEBUG?=0
 
